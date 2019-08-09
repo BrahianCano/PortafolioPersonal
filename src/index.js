@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import About from './components/About';
+import './includes/bootstrap'; //Achivo de Bootstrap integrado jQuery y Popper
+import App from '../src/components/App';
 
-//Que quiero renderisar.
-//Donde lo voy a renderisar.
-ReactDOM.render(<About/> , document.getElementById('app'));
+
+ReactDOM.render(<App/>, document.getElementById('app'));
+
+
